@@ -132,6 +132,17 @@ nav .menu a:hover {
   padding: 0 1rem;
 }
 
+/* Make hero full width on large screens */
+@media (min-width: 1024px) {
+  .hero {
+    width: 100vw;       /* span full screen width */
+    margin: 0;           /* remove any side spacing */
+    left: 0;
+    right: 0;
+    max-width: 100%;
+  }
+}
+
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -405,3 +416,4 @@ footer {
     text-align: center;
   }
 }
+
