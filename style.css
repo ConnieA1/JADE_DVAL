@@ -198,6 +198,11 @@ section h2 {
   flex: 2 1 400px;
 }
 
+.about-text p {
+  margin-bottom: 1.2rem; /* Adds spacing between paragraphs */
+  line-height: 1.6;      /* Improves readability */
+}
+
 /* Portfolio */
 .portfolio-grid {
   display: grid;
@@ -416,4 +421,5 @@ footer {
     text-align: center;
   }
 }
+
 
